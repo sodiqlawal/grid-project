@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: arial;
+}
+
+:root{
+	--light: #fff;
+	--dark: #181b24;
+	--grey: #899495;
+	--blue: #231075;
+	--orange: #fc5130;
+	--sectionGrey: #f2f2f2;
+	--sectionwhite: #fff;
+	--green: #10751a;
+	--yellow: #756d10;
+	--red: #751010;
+}
+
+
+.container{
+	background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(./img/prog.jpg)center/cover no-repeat;
+	width: 100vw;
+	height: 100vh;
+	color: var(--light);
+	justify-content: center;
+
+
+}
+
+.container-head{
+	width: 100vw;
+	height: 350px;
+}
+
+
+.container-head-note{
+	text-align: center;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.container-middle{
+	text-align: center;
+}
+
+.container-middle-title{
+	margin-bottom: 1rem;
+}
+
+.container-middle-title-note{
+	letter-spacing: 0.2rem;
+	font-size: 2.5rem;
+}
+
+.container-middle-text{
+	margin-bottom: 0.7rem;
+	width: 100vw;
+	height: 250px;
+}
+
+.second{
+	margin-top: 0.3rem;
+}
+
+.container-foot{
+display: grid;
+grid-template-columns: repeat(4, 1fr) 600px 1fr;
+grid-template-rows: 50px;	
+/*background: black;*/
+/*align-content: end;*/
+grid-auto-flow: column;
+margin-right: 150px;
+margin-left: 130px;
+padding-top: 1rem;
+border-top: 0.1px solid var(--light);
+}
+
+.last{
+	padding-right: 10px;
+}
+
+/*.start{
+	margin-left: 0;
+}*/
+
+.nav{
+	background: #f1f1f1;
+	padding-top: 4rem;
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	/*width: 100%;*/
+	color: var(--dark);
+	padding-bottom: 2rem;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.nav-left-title{
+	max-width: 450px;
+	padding-bottom: 1rem;
+	
+}
+.let{
+	border-bottom: 2px solid var(--blue);
+}
+
+.nav-left-title-note{
+	margin-bottom: 1.5rem;
+}
+
+.nav-right-link{
+	border: 1px solid var(--blue);
+	background: var(--blue);
+	border-radius: 0.5rem;
+	color: var(--light);
+	padding: 0.4rem 0.5rem;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: var(--light);
+}
+
+.nav-right-link i{
+	color: var(--light);
+}
+
+.banner{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 calc(30% - 0.25rem);
+	padding-left: 130px;
+	margin-right: 100px;
+	background: #f1f1f1;
+	padding-bottom: 2rem;
+	width: 100vw;
+}
+
+.banner-left{
+	width: 30%;
+	/*height: 200px;*/
+	background: var(--light);
+	/*border: 1px solid var(--dark);*/
+	margin-left: 1rem;
+}
+
+.banner-middle{
+	width: 30%;
+	/*height: 100px;*/
+	background: var(--light);
+	/*border: 1px solid var(--dark);*/
+	margin-left: 1rem;
+
+}
+
+.banner-right{
+	width: 30%;
+	/*height: 200px;*/
+	background: var(--light);
+	/*border: 1px solid var(--dark);*/
+	margin-left: 1rem;
+}
+
+.banner-img{
+	width: 100%;
+	height: 200px;
+	margin-top: 2rem;
+	/*margin-bottom: 2rem;*/
+}
+
+.banner-left-text-note{
+	margin-bottom: 1rem;
+	color: var(--orange);
+}
+.banner-middle-text-note{
+	margin-bottom: 1rem;
+	color: var(--orange);
+}
+.banner-right-text-note{
+	margin-bottom: 1rem;
+	color: var(--orange);
+}
+
+.banner-left-title-note{
+	color: var(--dark);
+	margin-bottom: 2rem;
+}
+.banner-middle-title-note{
+	color: var(--dark);
+	margin-bottom: 2rem;
+}
+.banner-right-title-note{
+	color: var(--dark);
+	margin-bottom: 0.7rem;
+}
+
+
+.thinking{
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--dark);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 8.5rem;
+	background: #f1f1f1;
+
+}
+
+.thinking-left{
+	width: 40%;
+	margin-right: 2rem;
+}
+
+.thinking-right{
+	width: 35%;
+	padding-top: 330px;
+	padding-left: 1rem;
+}
+
+.thinking-img{
+	width: 100%;
+	height: 400px;
+}
+
+.thinking-left-title-note{
+	margin-bottom: 2rem;
+}
+
+.thinking-left-text-note{
+	margin-bottom: 1rem;
+}
+
+.thinking-text-top{
+	margin-bottom: 0.5rem;
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+}
+
+.thinking-right-title-note{
+	margin-bottom: 1rem;
+}
+
+.thinking-right-text-note{
+	margin-bottom: 1rem;
+}
+.thinking-link{
+	text-decoration: none;
+	color: var(--light);
+	font-size: 0.8rem;
+
+}
+.think-link{
+	background: var(--blue);
+	border-radius: 0.8rem;
+	border: 1px solid var(--dark);
+	width: 130px;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	padding-left: 1rem;
+}
+
+/*.thinking-right i{
+	margin-left: 1rem;
+	color: var(--light); 
+}*/
+
+.t-link{
+	margin-left: 1rem;
+	color: var(--light);
+	padding-right: 0.5rem;
+	font-size: 0.8rem;
+}
+
+
+
+
